@@ -8,10 +8,10 @@ export default function ToDoDailyTasks(props) {
   }
 
   return (
-    <div className="tasks">
+    <div className={props.completed ? "completedTask" : "tasks"}>
       <h2 className="toDo">{props.todo}</h2>
       {/* //ternary operator. */}
-      {dueDate ? (
+      {dueDate && !props.completed ? (
         <span className="dueDate"> {`Due by: ${dueDate}`}</span>
       ) : null}
     </div>

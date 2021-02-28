@@ -12,10 +12,15 @@
   text-decoration: none;
 }
 .tasks {
-  border: 1px solid blue;
+  border: 1px solid rgb(199, 238, 240);
   margin: 50px auto;
   background-color: rgb(199, 238, 240);
   display: block;
+}
+
+.completedTask {
+  background-color: aliceblue;
+  text-decoration: line-through;
 }
 
 .toDo {

@@ -11,12 +11,14 @@ function App() {
       todo: "Buy Insect Spray",
       dueDate: 1611599623,
       completed: true,
+      completedDate: 1611599623,
     },
     {
       id: "f4207a58-ddcf-4347-bc4b-e1196d96a0c2",
       todo: "Cancel dentist appointment",
       dueDate: 1588191006,
       completed: true,
+      completedDate: 1611599623,
     },
     {
       id: "f8223f05-ee1d-4940-b84d-c1bf07b49c45",

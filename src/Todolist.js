@@ -11,10 +11,10 @@ export default function Todolist(props) {
       return a.completed;
     })
     .sort(function (a, b) {
-      if (a.dueDate < b.dueDate) {
-        return 1;
-      } else {
+      if (a.completedDate < b.completedDate) {
         return -1;
+      } else {
+        return 1;
       }
     });
 
