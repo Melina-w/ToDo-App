@@ -3,7 +3,7 @@ import "./Todolist";
 import Todolist from "./Todolist";
 
 function App() {
-  let tasks = [
+  const tasks = [
     {
       id: "e01d2bf3-2047-4a10-b10b-d2c906e6e3df",
       todo: "Buy Insect Spray",
