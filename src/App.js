@@ -1,8 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "./Todolist";
 import Todolist from "./Todolist";
-import AddTaskButton from "./AddTaskButton";
 
 function App() {
   let tasks = [
@@ -69,7 +67,6 @@ function App() {
     <div className="App">
       <div className="header">
         <h1>My ToDo App</h1>
-        <AddTaskButton />
       </div>
       <Todolist tasks={tasks} />
     </div>
