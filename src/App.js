@@ -129,21 +129,22 @@ function App() {
             type="date"
             onChange={onNewTodoChange("dueDate")}
           />
-
-          <FontAwesomeIcon
-            className="greenIcon"
-            color="green"
-            size="2x"
-            icon={faCheckCircle}
-            onClick={addTask}
-          />
-          <FontAwesomeIcon
-            className="redIcon"
-            color="red"
-            size="2x"
-            icon={faTimesCircle}
-            onClick={cancelAddNewTask}
-          />
+          <div style={{ textAlign: "right", marginTop: "10px" }}>
+            <FontAwesomeIcon
+              style={{ marginRight: "10px" }}
+              color="red"
+              size="2x"
+              icon={faTimesCircle}
+              onClick={cancelAddNewTask}
+            />
+            <FontAwesomeIcon
+              className="greenIcon"
+              color="green"
+              size="2x"
+              icon={faCheckCircle}
+              onClick={addTask}
+            />
+          </div>
         </div>
       ) : null}
       <Todolist tasks={todos} />
