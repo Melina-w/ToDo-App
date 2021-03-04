@@ -3,6 +3,7 @@ import "./App.css";
 import ToDoDailyTasks from "./ToDoDailyTasks";
 
 export default function Todolist(props) {
+  console.log("renders TodoList");
   const completedTasks = [];
   const notCompletedTasks = [];
 

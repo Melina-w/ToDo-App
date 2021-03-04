@@ -1,18 +1,58 @@
-.App {
-  text-align: center;
-}
-
 .header {
   border: 1px solid blue;
   margin: 50px auto;
   display: block;
+  position: relative;
+  text-align: center;
+}
+
+.newTodo {
+  background-color: rgb(199, 238, 240);
+  margin: 50px 0;
+  display: block;
+}
+
+.addTodosForm {
+  width: 20%;
+  height: 35px;
+  margin-left: 10%;
+  display: block;
+}
+
+.addTodosFormDate {
+  width: 10%;
+  height: 35px;
+  margin-left: 40%;
+  margin-top: -35px;
+  display: block;
+}
+
+.redIcon {
+  width: 10%;
+  height: 35px;
+  margin-left: 55%;
+  margin-top: -35px;
+  display: block;
+}
+
+.greenIcon {
+  width: 10%;
+  height: 35px;
+  margin-left: 60%;
+  margin-top: -35px;
+  display: block;
+}
+
+.listTitle {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0 20px;
 }
 
 .ToDoList {
   text-decoration: none;
 }
 .tasks {
-  border: 1px solid rgb(199, 238, 240);
   margin: 50px auto;
   background-color: rgb(199, 238, 240);
   display: block;
